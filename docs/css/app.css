@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("images/Redwood_Backgrounds_Abstracts_RGB_01-E.jpg");
+  background-attachment: fixed;
+  padding: 10px;
+}
+h1 {
+  font-size: 1.8rem;
+}
+.align-center {
+  text-align: center;
+}
+.lighter-heder {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.divider {
+  margin: 1rem auto;
+  width: 16px;
+  /* border-bottom: 4px solid #FACD62; */
+  border-bottom: 4px solid #AE562C;
+}

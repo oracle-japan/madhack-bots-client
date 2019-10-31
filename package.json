@@ -12,9 +12,9 @@
   },
   "scripts": {
     "ojet": "ojet",
-    "start": "ojet serve web",
-    "build": "ojet build web",
-    "clean": "ojet clean"
+    "start": "ojet serve web --release --theme light",
+    "build": "ojet build web --release --theme light",
+    "clean": "ojet clean web"
   },
   "private": true
 }
