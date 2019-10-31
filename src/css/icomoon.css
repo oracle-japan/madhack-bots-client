@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?33bpl4') format('truetype'),
+    url('fonts/icomoon.woff?33bpl4') format('woff'),
+    url('fonts/icomoon.svg?33bpl4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icomoon-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-phone:before {
+  content: "\e942";
+}
+.icomoon-phone-hang-up:before {
+  content: "\e943";
+}
+.icomoon-pushpin:before {
+  content: "\e946";
+}
+.icomoon-location:before {
+  content: "\e947";
+}
+.icomoon-location2:before {
+  content: "\e948";
+}
+.icomoon-compass:before {
+  content: "\e949";
+}
+.icomoon-compass2:before {
+  content: "\e94a";
+}
+.icomoon-map:before {
+  content: "\e94b";
+}
+.icomoon-map2:before {
+  content: "\e94c";
+}
+.icomoon-mobile:before {
+  content: "\e958";
+}
+.icomoon-mobile2:before {
+  content: "\e959";
+}
+.icomoon-bubble:before {
+  content: "\e96b";
+}
+.icomoon-bubbles:before {
+  content: "\e96c";
+}
+.icomoon-bubbles2:before {
+  content: "\e96d";
+}
+.icomoon-bubble2:before {
+  content: "\e96e";
+}
+.icomoon-bubbles3:before {
+  content: "\e96f";
+}
+.icomoon-bubbles4:before {
+  content: "\e970";
+}
+.icomoon-user:before {
+  content: "\e971";
+}
+.icomoon-users:before {
+  content: "\e972";
+}
+.icomoon-sphere:before {
+  content: "\e9c9";
+}
+.icomoon-earth:before {
+  content: "\e9ca";
+}
+.icomoon-happy:before {
+  content: "\e9df";
+}
+.icomoon-happy2:before {
+  content: "\e9e0";
+}
+.icomoon-smile:before {
+  content: "\e9e1";
+}
+.icomoon-smile2:before {
+  content: "\e9e2";
+}
+.icomoon-tongue:before {
+  content: "\e9e3";
+}
+.icomoon-tongue2:before {
+  content: "\e9e4";
+}
+.icomoon-sad:before {
+  content: "\e9e5";
+}
+.icomoon-sad2:before {
+  content: "\e9e6";
+}
+.icomoon-wink:before {
+  content: "\e9e7";
+}
+.icomoon-wink2:before {
+  content: "\e9e8";
+}
+.icomoon-grin:before {
+  content: "\e9e9";
+}
+.icomoon-grin2:before {
+  content: "\e9ea";
+}
+.icomoon-cool:before {
+  content: "\e9eb";
+}
+.icomoon-cool2:before {
+  content: "\e9ec";
+}
+.icomoon-angry:before {
+  content: "\e9ed";
+}
+.icomoon-angry2:before {
+  content: "\e9ee";
+}
+.icomoon-evil:before {
+  content: "\e9ef";
+}
+.icomoon-evil2:before {
+  content: "\e9f0";
+}
+.icomoon-shocked:before {
+  content: "\e9f1";
+}
+.icomoon-shocked2:before {
+  content: "\e9f2";
+}
+.icomoon-baffled:before {
+  content: "\e9f3";
+}
+.icomoon-baffled2:before {
+  content: "\e9f4";
+}
+.icomoon-confused:before {
+  content: "\e9f5";
+}
+.icomoon-confused2:before {
+  content: "\e9f6";
+}
+.icomoon-neutral:before {
+  content: "\e9f7";
+}
+.icomoon-neutral2:before {
+  content: "\e9f8";
+}
+.icomoon-hipster:before {
+  content: "\e9f9";
+}
+.icomoon-hipster2:before {
+  content: "\e9fa";
+}
+.icomoon-wondering:before {
+  content: "\e9fb";
+}
+.icomoon-wondering2:before {
+  content: "\e9fc";
+}
+.icomoon-sleepy:before {
+  content: "\e9fd";
+}
+.icomoon-sleepy2:before {
+  content: "\e9fe";
+}
+.icomoon-frustrated:before {
+  content: "\e9ff";
+}
+.icomoon-frustrated2:before {
+  content: "\ea00";
+}
+.icomoon-crying:before {
+  content: "\ea01";
+}
+.icomoon-crying2:before {
+  content: "\ea02";
+}
+.icomoon-warning:before {
+  content: "\ea07";
+}
+.icomoon-notification:before {
+  content: "\ea08";
+}
+.icomoon-question:before {
+  content: "\ea09";
+}
+.icomoon-twitter:before {
+  content: "\ea96";
+}

@@ -1,9 +1,8 @@
-// @import "../../../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.urls";
-// @import "../../../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.math";
-// @import "../../../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.units";
-// @import "../../../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.modules";
-// @import "../../../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.theming.vars";
-@import "../../common.web.settings";
+@import "../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.urls";
+@import "../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.math";
+@import "../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.units";
+@import "../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.modules";
+@import "../../node_modules/@oracle/oraclejet/dist/scss/utilities/oj.utilities.theming.vars";
 
 //-----------------------------------------------------------------------------
 // Variable Naming Conventions
@@ -65,7 +64,7 @@
 //       the path to your image directory or the text direction.
 //-----------------------------------------------------------------------------
 
-$themeName:           light !default;
+// $themeName:           light !default;
 //$themeTargetPlatform: web !default;
 
 
@@ -74,13 +73,13 @@ $themeName:           light !default;
 // these paths should be relative to the generated css file
 
 // path to images
-// $imageDir: "../../../alta/7.2.0/web/images/" !default;
+$imageDir: "../../../alta/7.2.0/web/images/" !default;
 
 // path to (icon) fonts
-// $fontDir:  "../../../alta/7.2.0/web/fonts/" !default;
+$fontDir:  "../../../alta/7.2.0/web/fonts/" !default;
 
 // path to common images (images shared across themes)
-// $commonImageDir:  "../../../alta/7.2.0/common/images/" !default;
+$commonImageDir:  "../../../alta/7.2.0/common/images/" !default;
 
 
 // DIRECTION
@@ -284,7 +283,7 @@ $themeName:           light !default;
 //-----------------------------------------------------------------------------
 
 //  BRAND COLOR CONFIG:
-//$brandColor:           #027bc7 !default;
+$brandColor:           #759C6C !default;
 //  NEUTRAL COLOR CONFIG:
 //$neutralHue:           203 !default;
 //$neutralSaturation:    2% !default;
@@ -438,7 +437,7 @@ $themeName:           light !default;
 // the html element with your own class or inline style.
 //
 // The browser default font size is 16px
-//$rootFontSize:    .875em !default;    // 14px
+$rootFontSize:    16px !default;
 
 //$fontSize:         1rem !default;
 //$smallestFontSize: oj-px-to-rem(11px, $baseFontSize: 14px)  !default;
@@ -455,20 +454,20 @@ $themeName:           light !default;
 //    these variables are used broadly
 //    in the widget files
 //----------------------------------
-$textColor:          #100F0E !default;
-$primaryTextColor:   #100F0E !default;
-$secondaryTextColor: rgba(16,15,14,.6) !default;
+//$textColor:                           $textColor3 !default;
+//$primaryTextColor:                    $textColor1 !default;
+//$secondaryTextColor:                  $textColor4 !default;
 //$tertiaryTextColor:                   $textColor6 !default;
 //$contrastTextColor:                   $neutralColor1 !default;
-$textColorDisabled:  rgba(16,15,14,.3) !default;
+//$textColorDisabled:                   $textColor7 !default;
 //$textColorError:        $accentColorDanger5 !default;
 
 //$formControlLabelColor:               $textColor5 !default;
 
-$headerTextColor: $textColor !default;
+//$headerTextColor:                     $textColor2 !default;
 
-$linkTextColor:       #AE562C !default;
-$linkTextColorActive: #9E4F28 !default;
+//$linkTextColor:                       $brandColorDark1 !default;
+//$linkTextColorActive:                 $brandColorDark2 !default;
 //$linkTextColorVisited:                $linkTextColor !default;
 // note that $opacityDisabled is
 // used for a disabled link in addition to color
@@ -758,7 +757,7 @@ $linkTextColorActive: #9E4F28 !default;
 //-----------------------------------------------------------------------------
 // to override an existing background image use $bodyBgImage: none;
 //$bodyBgImage:   none !default;
-$bodyBgColor: #f7f5f3 !default;
+//$bodyBgColor:   $neutralColor1 !default;
 //$bodyTextColor: $textColor !default;
 
 // Platforms that support double-tap-to-zoom typically impose a ~300ms
@@ -787,10 +786,10 @@ $bodyBgColor: #f7f5f3 !default;
 
 // panel defaults:
 //$panelPadding: oj-px-to-rem(12px, $baseFontSize: 14px) !default;
-$panelBgColor:             #FCFBFA !default;
-$panelBorderColor:         #FCFBFA !default;
+//$panelBgColor:             $neutralColor1 !default;
+//$panelBorderColor:         $neutralColor8 !default;
 //$panelBorderColorSelected: $brandColor !default;
-//$panelBorderRadius:        $smallBorderRadius !default;
+$panelBorderRadius: 6px !default;
 
 
 // panel alternatives
@@ -839,10 +838,10 @@ $panelBorderColor:         #FCFBFA !default;
 // $header[1|2|3|4|5]FontWeight vars can be used
 // to override the default font weight, they are
 // applied to h[1|2|3|4|5] tags
-//$header1FontWeight: 200   !default;
-//$header2FontWeight: 300   !default;
-//$header3FontWeight: 300   !default;
-//$header4FontWeight: 400   !default;
+$header1FontWeight: 900     !default;
+$header2FontWeight: 700     !default;
+$header3FontWeight: lighter !default;
+$header4FontWeight: 400     !default;
 //$header5FontWeight: 400   !default;
 //$header6FontWeight: 400   !default;
 
@@ -1045,11 +1044,11 @@ $panelBorderColor:         #FCFBFA !default;
 //$appLayoutWebPadding: 20px !default;
 
 // Header
-$appLayoutWebHeaderBgColor: #403c38 !default;
-$appLayoutWebHeaderBorderColor: #403c38 !default;
-$appLayoutWebHeaderTitleFontSize: 20px !default;
-$appLayoutWebHeaderTitleFontWeight: 400 !default;
-$appLayoutWebHeaderTextColor: #fcfbfa !default;
+//$appLayoutWebHeaderBgColor: $headerBgColor !default;
+//$appLayoutWebHeaderBorderColor: $neutralColor7 !default;
+//$appLayoutWebHeaderTitleFontSize: $mediumFontSize !default;
+//$appLayoutWebHeaderTitleFontWeight: $headerFontWeight !default;
+//$appLayoutWebHeaderTextColor: $secondaryTextColor !default;
 //$appLayoutWebHeaderBoxShadow: 0 3px 3px unquote('hsla(#{$boxShadowHsl},0.1)') !default;
 //$appLayoutWebHeaderMinHeight: 3.143rem !default; // 44px when root 14px
 
@@ -2593,7 +2592,7 @@ $appLayoutWebHeaderTextColor: #fcfbfa !default;
 //----------------------------------------------------------------------
 //Default
 //$tabBarItemBorderColor:                             transparent !default;
-$tabBarItemLabelColorDefault: $brandColor !default;
+//$tabBarItemLabelColorDefault:                         $linkTextColor !default;
 //$tabBarItemIconColorDefault:                          $iconColorDefault !default;
 
 //Hover
