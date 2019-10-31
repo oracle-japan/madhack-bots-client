@@ -1,0 +1,20 @@
+{
+  "name": "oda-client",
+  "version": "1.0.0",
+  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "dependencies": {
+    "@oracle/oraclejet": "~7.2.0"
+  },
+  "devDependencies": {
+    "@oracle/ojet-cli": "^7.2.0",
+    "@oracle/oraclejet-tooling": "~7.2.0",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "ojet": "ojet",
+    "start": "ojet serve web",
+    "build": "ojet build web",
+    "clean": "ojet clean"
+  },
+  "private": true
+}
