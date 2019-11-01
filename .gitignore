@@ -13,3 +13,7 @@ hybrid/plugins/*
 
 .DS_Store
 Thumbs.db
+!src/bots
+src/bots
+!src/bots/frame.*
+src/js/bots.js
