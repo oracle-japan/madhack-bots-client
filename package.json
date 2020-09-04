@@ -8,7 +8,7 @@
   "devDependencies": {
     "@oracle/ojet-cli": "^7.2.0",
     "@oracle/oraclejet-tooling": "~7.2.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "scripts": {
     "ojet": "ojet",
